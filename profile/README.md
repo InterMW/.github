@@ -10,7 +10,6 @@ graph TD;
     Inter.PlaneWrangler--> |Position Data| PlaneViewer;
     Inter.PlaneIndexer --> |History Data| PlaneViewer; 
     Inter.PlaneWrangler==> |Position Data| Inter.PlaneIndexer;
-    Inter.Proxy <-> 
 ```
 
 More information on each service is available in their respective repository, linked below.
