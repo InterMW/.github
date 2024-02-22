@@ -1,6 +1,6 @@
 ## Welcome!
 
-This organization is an ongoing practice in software architecting and development.
+This collection of repositories is owned by [Joseph Melberg](https://github.com/Joseph-Melberg) for the purpose of ongoing practice in software architecting and development.
 
 ```mermaid
 graph TD;
