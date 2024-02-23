@@ -23,6 +23,7 @@ More information on each service is available in their respective repository, li
 |[Inter.PlaneIndexer](https://github.com/InterMW/Inter.PlaneIndexer) | A service providing past position data for consumption.|
 |[Inter.Proxy](https://github.com/InterMW/Inter.Proxy)| A service that provides external access to the web api's of the other services.|
 
+# Planned Domains
 ## Device Domain
 
 ```mermaid
