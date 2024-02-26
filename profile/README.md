@@ -31,13 +31,3 @@ graph TD;
     Data ==> Inter.Usage;
     Data ==> Inter.Thermometer;
 ```
-
-## Utility Domain
-
-```mermaid
-graph TD;
-    Source ==> |Some message | Service;
-    Service ==> |Some message| Destination;
-    Service --> |The time it took to perform the prompted action| Inter.Timer;
-
-```
