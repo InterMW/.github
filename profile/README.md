@@ -31,3 +31,18 @@ graph TD;
     Data ==> Inter.Usage;
     Data ==> Inter.Thermometer;
 ```
+|Service Name| Description|
+|-|-|
+|Inter.Usage| A service for recording the CPU usage of nodes.|
+|Inter.Thermometer| A service for recording the CPU temps of nodes.|
+
+## Monitor Domain
+
+```mermaid
+graph TD;
+    Process ==> | Duration | Inter.Stopwatch;
+```
+
+|Service Name| Description|
+|-|-|
+|Inter.Stopwatch|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
