@@ -28,13 +28,13 @@ More information on each service is available in their respective repository, li
 
 ```mermaid
 graph TD;
-    Data ==> Inter.Usage;
-    Data ==> Inter.Thermometer;
+    Data ==> Inter.Listener;
+    Data ==> Inter.LifeSupport;
 ```
 |Service Name| Description|
 |-|-|
-|Inter.Usage| A service for recording the CPU usage of nodes.|
-|Inter.Thermometer| A service for recording the CPU temps of nodes.|
+|Inter.Listener| A service for recording the diagnostics of the nodes.|
+|Inter.LifeSupport| A service for monitoring the liveness of nodes.|
 
 ## Monitor Domain
 
