@@ -33,7 +33,7 @@ graph TD;
 ```
 |Service Name| Description|
 |-|-|
-|Inter.Listener| A service for recording the diagnostics of the nodes.|
+|Inter.Listener| A service for recording the diagnostics of nodes.|
 |Inter.LifeSupport| A service for monitoring the liveness of nodes.|
 
 ## Monitor Domain
