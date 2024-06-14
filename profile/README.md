@@ -23,6 +23,17 @@ More information on each service is available in their respective repository, li
 |[Inter.PlaneIndexer](https://github.com/InterMW/Inter.PlaneIndexer) | A service providing past position data for consumption.|
 |[Inter.Proxy](https://github.com/InterMW/Inter.Proxy)| A service that provides external access to the web api's of the other services.|
 
+## Monitor Domain
+
+```mermaid
+graph TD;
+    Process ==> | Duration | Inter.MetricMonitor;
+```
+
+|Service Name| Description|
+|-|-|
+|[Inter.MetricMonitor](https://github.com/InterMW/Inter.MetricMonitor)|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
+
 # Planned Domains
 ## Device Domain
 
@@ -36,13 +47,3 @@ graph TD;
 |Inter.Listener| A service for recording the diagnostics of nodes.|
 |Inter.LifeSupport| A service for monitoring the liveness of nodes.|
 
-## Monitor Domain
-
-```mermaid
-graph TD;
-    Process ==> | Duration | Inter.MetricMonitor;
-```
-
-|Service Name| Description|
-|-|-|
-|[Inter.MetricMonitor](https://github.com/InterMW/Inter.MetricMonitor)|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
