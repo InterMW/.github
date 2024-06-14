@@ -40,9 +40,9 @@ graph TD;
 
 ```mermaid
 graph TD;
-    Process ==> | Duration | Inter.Stopwatch;
+    Process ==> | Duration | Inter.MetricMonitor;
 ```
 
 |Service Name| Description|
 |-|-|
-|Inter.Stopwatch|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
+|[Inter.MetricMonitor](https://github.com/InterMW/Inter.MetricMonitor)|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
