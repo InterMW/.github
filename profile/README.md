@@ -34,16 +34,18 @@ graph TD;
 |-|-|
 |[Inter.MetricMonitor](https://github.com/InterMW/Inter.MetricMonitor)|More of a behind-the-scenes thing, allows us to monitor how long a given message takes to process.|
 
-# Planned Domains
 ## Device Domain
 
 ```mermaid
 graph TD;
     Data ==> Device.Gate;
     Device.Gate ==> Inter.DeviceLifeMonitor;
+    Device.Gate ==> | Device registration | Inter.Device;
+    Inter.DeviceLifeMonitor ==> | Update life state | Inter.Device;
 ```
 |Service Name| Description|
 |-|-|
 |[Device.Gate](https://github.com/InterMW/Device.Gate)| The entry point for data for nodes.|
 |[Inter.DeviceLifeMonitor](https://github.com/InterMW/Inter.DeviceLifeMonitor)| A service for monitoring the liveness of nodes.|
+|[Inter.Device](https://github.com/InterMW/Inter.Device)| The center of the device domain.|
 
