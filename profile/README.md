@@ -39,11 +39,11 @@ graph TD;
 
 ```mermaid
 graph TD;
-    Data ==> Inter.Listener;
-    Data ==> Inter.LifeSupport;
+    Data ==> Device.Gate;
+    Device.Gate ==> Inter.DeviceLifeMonitor;
 ```
 |Service Name| Description|
 |-|-|
-|Inter.Listener| A service for recording the diagnostics of nodes.|
-|Inter.LifeSupport| A service for monitoring the liveness of nodes.|
+|[Device.Gate](https://github.com/InterMW/Device.Gate)| The entry point for data for nodes.|
+|[Inter.DeviceLifeMonitor](https://github.com/InterMW/Inter.DeviceLifeMonitor)| A service for monitoring the liveness of nodes.|
 
