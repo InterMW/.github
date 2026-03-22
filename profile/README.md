@@ -6,12 +6,12 @@ This collection of repositories is owned by [Joseph Melberg](https://github.com/
 
 ```mermaid
 graph TD;
-    Data==>Inter.PlaneWrangler;
-    Inter.Metronome --> | Each second | Inter.PlaneWrangler;
+    Data==>Herder;
+    Inter.Metronome --> | Each second | Herder;
     Inter.Metronome --> | Each minute | Inter.PlaneIndexer;
-    Inter.PlaneWrangler--> |Position Data| Inter.Proxy;
+    Herder --> |Position Data| Inter.Proxy;
     Inter.PlaneIndexer --> |History Data| Inter.Proxy; 
-    Inter.PlaneWrangler==> |Position Data| Inter.PlaneIndexer;
+    Herder==> |Position Data| Inter.PlaneIndexer;
 ```
 
 More information on each service is available in their respective repository, linked below.
